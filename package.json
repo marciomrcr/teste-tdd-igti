@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Calculadora de montante para financiamento",
   "main": "index.js",
+  "jest": {
+    "verbose": true
+  },
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "lint": "eslint src/** test/** --fix",
     "watch": "jest --watch"
   },

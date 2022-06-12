@@ -7,8 +7,8 @@
     "verbose": true
   },
   "scripts": {
-    "test": "jest --coverage",
-    "lint": "eslint consulta-credito/src/**  consulta-credito/test/** --fix",
+    "test": "jest",
+    "lint": "eslint src/**  consulta-credito/test/** --fix",
     "watch": "jest --watch --verbose=true",
     "start": "nodemon consulta-credito/src/server.js"
   },

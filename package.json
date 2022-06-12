@@ -8,12 +8,25 @@
   },
   "scripts": {
     "test": "jest --coverage",
-    "lint": "eslint src/** test/** --fix",
+    "lint": "eslint consulta-credito/src/**  consulta-credito/test/** --fix",
     "watch": "jest --watch --verbose=true"
   },
   "author": "Marcio Rodrigues",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^28.1.1"
+    "eslint": "^8.17.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.2",
+    "eslint-plugin-promise": "^6.0.0",
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.16",
+    "supertest": "^6.2.3"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-validator": "^6.14.1",
+    "pg": "^8.7.3",
+    "sequelize": "^6.20.1"
   }
 }

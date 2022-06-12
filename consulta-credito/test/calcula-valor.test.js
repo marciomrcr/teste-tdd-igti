@@ -63,7 +63,7 @@ describe('calcularPrestacoes', () => {
     expect(prestacoes[0]).toBe(50)
     expect(prestacoes[1]).toBe(50)
     // ou
-    //expect(prestacoes[1]).toEqual(50)
+    // expect(prestacoes[1]).toEqual(50)
   })
 
   test('Valor da soma das prestações é igual ao montante com 2 casas decimais', () => {
